@@ -27,8 +27,8 @@ export default function parse(element, { document }) {
     }
 
     cells.push([
-      img,
-      textCellContent.length === 1 ? textCellContent[0] : textCellContent
+      img || ' ',
+      textCellContent.length === 1 ? textCellContent[0] : ' '
     ]);
   });
 

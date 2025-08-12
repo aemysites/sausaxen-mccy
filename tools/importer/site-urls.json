@@ -1,0 +1,24 @@
+{
+  "originUrl": "https://www.mccy.gov.sg",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.mccy.gov.sg",
+      "source": "MANUAL",
+      "targetPath": "/",
+      "id": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6"
+    },
+    {
+      "url": "https://www.mccy.gov.sg/sectors",
+      "source": "MANUAL",
+      "targetPath": "/sectors",
+      "id": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca"
+    }
+  ],
+  "crawlOptions": {
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  }
+}

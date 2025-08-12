@@ -5,8 +5,17 @@
 
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  padding: 0;
+  min-height: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background: 
+    linear-gradient(to right, rgb(0 0 0 / 97%) 0%, rgb(0 0 0 / 70%) 35%, rgb(0 0 0 / 18%) 70%, rgb(0 0 0 / 0%) 100%),
+    url('https://isomer-user-content.by.gov.sg/98/c39f880f-8597-4640-a70c-f3a9b04d55ad/Website%20Illustration%20Resize%20-%20Xin%20Li%20Banner.jpg') center center / cover no-repeat;
+  overflow: hidden;
 }
 
 .hero h1,
@@ -43,5 +52,77 @@
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
+  }
+}
+
+.hero > div:first-child {
+  display: none; /* Hide the image link */
+}
+
+.hero > div:last-child {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 64px;
+  padding-right: 24px;
+  max-width: 680px;
+  min-width: 0;
+  z-index: 2;
+}
+
+.hero > div:last-child > div {
+  width: 100%;
+  max-width: 540px;
+}
+
+.hero > div:last-child h1 {
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1.1;
+  margin: 0 0 20px;
+  text-align: left;
+  letter-spacing: -0.5px;
+  overflow-wrap: break-word;
+}
+
+.hero > div:last-child p {
+  color: #e0e0e0;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 0.01em;
+  overflow-wrap: break-word;
+}
+
+/* Remove unwanted inherited colors */
+.hero > div:last-child h1,
+.hero > div:last-child p {
+  color--special: inherit;
+}
+
+/* Responsive adjustments */
+@media (width <= 900px) {
+  .hero {
+    min-height: 180px;
+    flex-direction: column;
+    background:
+      linear-gradient(to bottom, rgb(0 0 0 / 90%) 0%, rgb(0 0 0 / 24%) 65%, rgb(0 0 0 / 0%) 100%),
+      url('https://isomer-user-content.by.gov.sg/98/c39f880f-8597-4640-a70c-f3a9b04d55ad/Website%20Illustration%20Resize%20-%20Xin%20Li%20Banner.jpg') center center / cover no-repeat;
+  }
+
+  .hero > div:last-child {
+    padding-left: 20px;
+    padding-right: 16px;
+    max-width: 100%;
+    min-height: 140px;
+    align-items: flex-start;
+  }
+
+  .hero > div:last-child h1 {
+    font-size: 2rem;
   }
 }

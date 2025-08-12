@@ -1,0 +1,259 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg/sectors",
+          "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+          "uuid": "55c6f168-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://www.mccy.gov.sg",
+          "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+          "uuid": "c5a81fa5-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 28,
+        "background": "rgb(243, 244, 246) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg/sectors",
+          "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+          "uuid": "55c6f168-06-46bfe0981bee31bd6149150aea01eb9dbfa04cdf",
+          "xpath": "/html[1]/body[1]/footer[1]/div[2]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.mccy.gov.sg",
+          "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+          "uuid": "c5a81fa5-10-46bfe0981bee31bd6149150aea01eb9dbfa04cdf",
+          "xpath": "/html[1]/body[1]/footer[1]/div[2]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(24, 24, 27) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Hero",
+      "cluster": 1,
+      "source": "Hero",
+      "target": "Hero",
+      "key": "hero1",
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg",
+          "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+          "uuid": "c5a81fa5-03-e1adc6900d30d14f9e9d1d4bb64bb29fe5399480",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[1]",
+          "section": "section-6"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 2,
+      "source": "Cards",
+      "target": "Cards (cards2)",
+      "key": "cards2",
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg",
+          "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+          "uuid": "c5a81fa5-05-4677d860e176a7106585ab9a904221740ef4aa1e",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 3,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cardsNoImages3",
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg",
+          "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+          "uuid": "c5a81fa5-07-b46899806d1396216a60537bf313e519d0e220c3",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/section[3]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 4,
+      "source": "Header",
+      "target": "Header",
+      "key": "header4",
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg/sectors",
+          "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+          "uuid": "55c6f168-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.mccy.gov.sg",
+          "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+          "uuid": "c5a81fa5-00-70928af0e9d7f0ac1f13f2d60f543d2cf08783dd",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg/sectors",
+          "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+          "uuid": "55c6f168-04-3ab9b21ef6cb3a018359b9f0daf1c63ecf73c7c1",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 6,
+      "source": "Columns",
+      "target": "Columns",
+      "key": "columns6",
+      "instances": [
+        {
+          "url": "https://www.mccy.gov.sg/sectors",
+          "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+          "uuid": "55c6f168-06-46bfe0981bee31bd6149150aea01eb9dbfa04cdf",
+          "xpath": "/html[1]/body[1]/footer[1]/div[2]/div[1]/div[1]",
+          "section": "section-5"
+        },
+        {
+          "url": "https://www.mccy.gov.sg",
+          "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+          "uuid": "c5a81fa5-10-46bfe0981bee31bd6149150aea01eb9dbfa04cdf",
+          "xpath": "/html[1]/body[1]/footer[1]/div[2]/div[1]/div[1]",
+          "section": "section-5"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.mccy.gov.sg/sectors",
+      "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+      "uuid": "55c6f168-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+      "xpath": "/html[1]/body[1]/header[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.mccy.gov.sg/sectors",
+      "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+      "uuid": "55c6f168-02-041eb8ef6e3698f737a6f287ffb2cd6bf4bd4fa6",
+      "xpath": "/html[1]/body[1]/header[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.mccy.gov.sg/sectors",
+      "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+      "uuid": "55c6f168-03-0e656e90ffa9b526f8ce51ba23e08542406d6fcc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]",
+      "section": "section-4"
+    },
+    {
+      "url": "https://www.mccy.gov.sg/sectors",
+      "urlHash": "55c6f16839ac53ea76cf2ffbb81fdcb64c6447ca",
+      "uuid": "55c6f168-05-08b3dac89a9a19f423a315bcc8686a6cb9a9eb19",
+      "xpath": "/html[1]/body[1]/footer[1]/div[2]/div[1]/h2[1]",
+      "section": "section-5"
+    },
+    {
+      "url": "https://www.mccy.gov.sg",
+      "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+      "uuid": "c5a81fa5-01-a4e8d78da6e5b4998fbb5ce0f6afa7284e895f2e",
+      "xpath": "/html[1]/body[1]/header[1]/div[2]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.mccy.gov.sg",
+      "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+      "uuid": "c5a81fa5-02-041eb8ef6e3698f737a6f287ffb2cd6bf4bd4fa6",
+      "xpath": "/html[1]/body[1]/header[1]/div[3]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.mccy.gov.sg",
+      "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+      "uuid": "c5a81fa5-04-175e06d137f473ad1fbf0f2e2bf9180f7dbf6ea7",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[2]/div[1]"
+    },
+    {
+      "url": "https://www.mccy.gov.sg",
+      "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+      "uuid": "c5a81fa5-06-0a12c6071b3af4e73278513f251ddb5961e6203c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[3]/div[1]"
+    },
+    {
+      "url": "https://www.mccy.gov.sg",
+      "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+      "uuid": "c5a81fa5-08-68c90a2c4b031be93223f401fa6aa5155df61940",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/section[3]/div[3]"
+    },
+    {
+      "url": "https://www.mccy.gov.sg",
+      "urlHash": "c5a81fa5c3c3e6c781655c1ee67b9e4fad0e0eb6",
+      "uuid": "c5a81fa5-09-08b3dac89a9a19f423a315bcc8686a6cb9a9eb19",
+      "xpath": "/html[1]/body[1]/footer[1]/div[2]/div[1]/h2[1]",
+      "section": "section-5"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(243, 244, 246) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(234, 242, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-4",
+      "background": "rgb(216, 5, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-5",
+      "background": "rgb(24, 24, 27) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 4
+    },
+    {
+      "name": "section-6",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)) repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    }
+  ]
+}

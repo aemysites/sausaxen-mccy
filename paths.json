@@ -1,10 +1,11 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/sausaxen-mccy/:/",
+    "/content/sausaxen-mccy/configuration:/.helix/config.json",
+    "/content/sausaxen-mccy/metadata:/metadata.json",
+    "/content/sausaxen-mccy/tools/sidekick/library:/tools/sidekick/library.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/sausaxen-mccy/"
   ]
 }

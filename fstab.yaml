@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p152749-e1584268.adobeaemcloud.com/bin/franklin.delivery/aemysites/sausaxen-mccy/main"
+    type: "markup"
+    suffix: ".html"
